@@ -29,3 +29,16 @@ Em termos de segurança, a nuvem oferece ferramentas avançadas que podem ser co
 A governança na nuvem permite o monitoramento contínuo de conformidade com políticas internas e regulatórias. Além disso, possibilita a aplicação automática de patches e atualizações, contribuindo para um ambiente mais seguro e bem controlado.
 
 Por fim, a gerenciabilidade facilita o controle dos recursos por meio de interfaces como portais web, linhas de comando, APIs e PowerShell. Com isso, é possível automatizar tarefas, como a implantação de recursos com base em modelos pré-configurados e a escalabilidade conforme a demanda.
+
+# aula 3 - 
+A computação em nuvem revolucionou a forma como empresas consomem tecnologia, oferecendo serviços sob demanda com escalabilidade, flexibilidade e economia. No Microsoft Azure, esses serviços são organizados principalmente em três modelos: IaaS, PaaS e SaaS.
+
+O modelo IaaS (Infraestrutura como Serviço) oferece ao cliente o controle total da infraestrutura, como servidores, máquinas virtuais, armazenamento e redes. Esse modelo é ideal para empresas que precisam migrar seus data centers para a nuvem, executar ambientes de teste e desenvolvimento, ou manter aplicações que exigem uma configuração personalizada.
+
+Já o PaaS (Plataforma como Serviço) oferece um ambiente pronto para o desenvolvimento e implantação de aplicações. Ele permite que os desenvolvedores foquem exclusivamente na lógica de negócio, sem se preocupar com a manutenção da infraestrutura. É uma ótima opção para empresas que desejam acelerar a criação de softwares, usando ferramentas integradas e recursos de automação.
+
+Por fim, o SaaS (Software como Serviço) disponibiliza softwares prontos para uso, acessíveis diretamente pela internet. Os exemplos mais comuns são ferramentas como e-mail, calendário e pacotes de produtividade, como o Microsoft 365. Nesse modelo, o provedor de nuvem é totalmente responsável pela manutenção, atualizações e segurança do software.
+
+Esses modelos funcionam com base em um modelo de responsabilidade compartilhada, no qual o nível de controle e responsabilidade varia conforme o tipo de serviço escolhido. No IaaS, a maior parte da responsabilidade está com o cliente. No PaaS, há um equilíbrio. Já no SaaS, o provedor assume quase todas as responsabilidades.
+
+A escolha entre IaaS, PaaS e SaaS depende das necessidades da empresa, do nível de controle desejado e da complexidade da solução. Com a nuvem, é possível escalar recursos conforme a demanda, garantir alta disponibilidade e segurança, além de reduzir custos com infraestrutura física.
