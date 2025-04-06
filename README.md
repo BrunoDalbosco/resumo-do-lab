@@ -57,3 +57,18 @@ Em termos de gerenciamento de recursos, o Azure trabalha com recursos e grupos d
 O acesso aos serviços do Azure é feito por meio de uma conta do Azure, que pode ser padrão, para estudantes ou gratuita. Essa conta está associada a uma ou mais assinaturas, que representam a estrutura de cobrança e gerenciamento. Cada assinatura fornece acesso autorizado aos serviços e pode ser usada para segmentar ambientes diferentes (como produção, desenvolvimento ou testes).
 
 Para facilitar o gerenciamento de múltiplas assinaturas, o Azure também disponibiliza os grupos de gerenciamento, que permitem aplicar políticas e controles de forma centralizada.
+
+# aula 5 - 
+O Microsoft Azure oferece uma ampla gama de serviços de computação em nuvem que proporcionam flexibilidade, escalabilidade e controle sobre os recursos. Dentre os principais serviços estão as Máquinas Virtuais (VMs), que permitem simular um computador físico com total controle sobre o sistema operacional e os aplicativos instalados. As VMs suportam diferentes sistemas operacionais, como Windows e Linux, e possibilitam escalabilidade e alta disponibilidade por meio de conjuntos de dimensionamento e conjuntos de disponibilidade, garantindo o funcionamento contínuo mesmo em caso de falhas.
+
+Outro serviço importante é a Área de Trabalho Virtual do Azure, que oferece desktops e aplicativos virtualizados acessíveis de qualquer lugar, através de um navegador ou aplicativo. Isso facilita a colaboração e o trabalho remoto, permitindo múltiplos usuários simultâneos, com a segurança e a praticidade da nuvem.
+
+Para aplicações modernas e baseadas em microsserviços, o Azure disponibiliza recursos como contêineres, que são ambientes leves e isolados para execução de aplicativos, e que podem ser orquestrados com o Azure Kubernetes Service (AKS). Além disso, o Azure suporta a execução de código sob demanda através das Azure Functions, que seguem o modelo serverless, eliminando a necessidade de gerenciar servidores.
+
+A plataforma de aplicativos do Azure oferece uma solução gerenciada para desenvolver, hospedar e escalar aplicativos web e APIs. Ela é compatível com diversas linguagens de programação como .NET, Java, Node.js, Python e PHP. Essa plataforma atende requisitos empresariais de conformidade, segurança e desempenho, com recursos de automação e integração contínua.
+
+No campo das redes, o Azure possibilita a criação de Redes Virtuais (VNets), que conectam recursos do Azure entre si e com redes locais. As VNets podem ser configuradas com pontos de extremidade públicos (para acesso pela internet) ou privados (para comunicação interna). Dentro das redes, é possível criar sub-redes e realizar emparelhamentos entre diferentes VNets, facilitando a comunicação entre recursos de maneira segura.
+
+Para conexão entre a nuvem e o ambiente local, o Azure oferece Gateways de VPN, que estabelecem túneis criptografados através da internet pública. Já o ExpressRoute proporciona uma conexão privada e de alta velocidade entre a infraestrutura local e o Azure, ideal para cargas de trabalho que exigem baixa latência e maior segurança.
+
+Por fim, o DNS do Azure permite gerenciar nomes de domínio com alta confiabilidade, tanto para domínios públicos quanto privados. Ele oferece integração com os recursos da plataforma, suporte a domínios personalizados, controle de acesso baseado em função e registro de logs para auditoria e diagnóstico.
