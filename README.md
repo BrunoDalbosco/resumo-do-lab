@@ -42,3 +42,18 @@ Por fim, o SaaS (Software como Serviço) disponibiliza softwares prontos para us
 Esses modelos funcionam com base em um modelo de responsabilidade compartilhada, no qual o nível de controle e responsabilidade varia conforme o tipo de serviço escolhido. No IaaS, a maior parte da responsabilidade está com o cliente. No PaaS, há um equilíbrio. Já no SaaS, o provedor assume quase todas as responsabilidades.
 
 A escolha entre IaaS, PaaS e SaaS depende das necessidades da empresa, do nível de controle desejado e da complexidade da solução. Com a nuvem, é possível escalar recursos conforme a demanda, garantir alta disponibilidade e segurança, além de reduzir custos com infraestrutura física.
+
+# aula 4 -
+O módulo apresenta os fundamentos da arquitetura e dos serviços do Microsoft Azure, destacando como a infraestrutura da nuvem é organizada e como os recursos são gerenciados dentro da plataforma.
+
+A estrutura física do Azure é formada por regiões, que são áreas geográficas amplas que hospedam datacenters próximos entre si, otimizando o desempenho e garantindo a conformidade legal de dados. No total, o Azure oferece mais de 60 regiões espalhadas por mais de 140 países.
+
+Dentro dessas regiões, existem as zonas de disponibilidade, que são locais fisicamente distintos com fontes independentes de energia, resfriamento e rede. Elas são projetadas para garantir alta disponibilidade dos serviços, mesmo diante de falhas locais. Para ampliar ainda mais a segurança e a recuperação de desastres, o Azure implementa os pares de regiões, que são regiões emparelhadas estrategicamente, mantendo uma distância mínima de 300 milhas entre si. Essas regiões emparelhadas são atualizadas de forma sequencial para reduzir o impacto em caso de falhas.
+
+Há também as regiões soberanas, criadas especialmente para atender às necessidades de agências governamentais e organizações que exigem alto nível de segurança e conformidade. Um exemplo é o Azure Governamental dos Estados Unidos, que é fisicamente isolado da nuvem pública e acessível somente a usuários autorizados.
+
+Em termos de gerenciamento de recursos, o Azure trabalha com recursos e grupos de recursos. Recursos são os elementos que compõem as soluções na nuvem, como máquinas virtuais, bancos de dados, redes e serviços de armazenamento. Já os grupos de recursos funcionam como contêineres lógicos que reúnem e organizam esses recursos. Um recurso pode estar apenas em um grupo de cada vez, mas pode ser movido para outro grupo ou usado por aplicativos que acessam múltiplos grupos.
+
+O acesso aos serviços do Azure é feito por meio de uma conta do Azure, que pode ser padrão, para estudantes ou gratuita. Essa conta está associada a uma ou mais assinaturas, que representam a estrutura de cobrança e gerenciamento. Cada assinatura fornece acesso autorizado aos serviços e pode ser usada para segmentar ambientes diferentes (como produção, desenvolvimento ou testes).
+
+Para facilitar o gerenciamento de múltiplas assinaturas, o Azure também disponibiliza os grupos de gerenciamento, que permitem aplicar políticas e controles de forma centralizada.
